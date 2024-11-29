@@ -116,7 +116,7 @@ class mySpeedLimiter(_PluginBase):
         if self._enabled and self._limit_enabled and self._interval:
             return [
                 {
-                    "id": "SpeedLimiter",
+                    "id": "mySpeedLimiter",
                     "name": "播放限速检查服务",
                     "trigger": "interval",
                     "func": self.check_playing_sessions,
