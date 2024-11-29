@@ -11,7 +11,7 @@ from app.schemas.types import EventType
 from app.utils.ip import IpUtils
 
 
-class SpeedLimiter(_PluginBase):
+class mySpeedLimiter(_PluginBase):
     # 插件名称
     plugin_name = "my播放限速"
     # 插件描述
