@@ -38,6 +38,8 @@ class mySpeedLimiter(_PluginBase):
     _enabled: bool = False
     _notify: bool = False
     _interval: int = 60
+    _unlimited_interval: int = 120
+    _unlimited_current: int = 0
     _downloader: list = []
     _play_up_speed: float = 0
     _play_down_speed: float = 0
